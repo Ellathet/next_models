@@ -1,11 +1,11 @@
 import ptBR from './locales/pt-BR';
 
-export default function i18n(locale: string | undefined) {
+export default function i18n(locale: string | undefined): object {
     switch (locale) {
         case 'pt-BR':
-            return (locale = ptBR);
+            return ptBR;
 
         default:
-            return (locale = ptBR);
+            return ptBR;
     }
 }

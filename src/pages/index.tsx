@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import { useRouter } from 'next/router';
 
-import i18n from '../i18n';
+import i18n from '~/i18n';
 
 const Home: NextPage = () => {
     const { locale } = useRouter();
